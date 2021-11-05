@@ -17,8 +17,8 @@ check=st.sidebar.checkbox('Show code')
 This is a demo shows how to use `st.write` to visualize Pandas DataFrames
 [Data courtesy of the [UN Data Explorer](http://data.un.org/Data.aspx?d=FAO&f=itemCode%3a2051).)
 '''
-filepath="https://github.com/VHSpirate/streamlit/blob/main/tutorial_streamlit/UNdata_Export_20211106_001242667.csv"
-df = pd.read_csv(filepath)
+file_name = "https://raw.githubusercontent.com/napoles-uach/Pycon_cl_taller/main/appDemo/UNdata_Export_20211101_202548548.csv"
+df = pd.read_csv(file_name)
 
 
 # make a list with the countries in the dataframe
