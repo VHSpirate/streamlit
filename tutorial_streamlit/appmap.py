@@ -16,7 +16,7 @@ This is a demo shows how to use `st.write` to visualize Pandas DataFrames
 
 [Data courtesy of the [UN Data Explorer](http://data.un.org/Data.aspx?d=FAO&f=itemCode%3a2051).)
 '''
-df = pd.read_csv('data1.csv', error_bad_lines=False)
+df = pd.read_csv('UNdata_Export_20211106_001242667.csv')
 
 # make a list with the countries in the dataframe
 countries = df['Country or Area'].unique()
